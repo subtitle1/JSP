@@ -1,13 +1,13 @@
 # HTTP
 - HyperText Transfer Protocol
-  + 클라이언트와 서버 간의 메세지 교환 시 사용되는 규칙
+  + **클라이언트와 서버 간의 메세지 교환 시 사용되는 규칙**
   + `브라우저(클라이언트)에 의해 전송되는 메세지를 요청(Request), 서버에서 응답으로 전송되는 메세지를 응답(Response)`라고 한다.
 - HTTP는 상태를 저장하지 않는다 (Stateless 프로토콜)
 
 ## HTTP 메세지
   + 요청 메세지
     - 클라이언트(브라우저)가 서버로 보내는 메세지
-    - 요청 메세지 = Request Header + 빈줄 + Request Body
+    - 요청 메세지 = **Request Header + 빈줄 + Request Body**
     - 요청 메세지는 브라우저->검사->network 탭에서 확인 가능하다
      ![image](https://user-images.githubusercontent.com/87356533/140911903-ca76b1f1-958b-426a-85ed-601466c77e12.png)
     - `Request Line : 요청방식(GET / POST), URL, 프로토콜 방식(http/1.1)`
@@ -17,7 +17,7 @@
 ---------------------------------------------------------------------------------------
    + 응답 메세지
      - 서버가 클라이언트로 보내는 메세지
-     - 응답라인은 프로토콜 버전(http/1.1), http 응답 코드(숫자), 응답코드(상태) 메세지(ex)OK) 구성된다.
+     - 응답라인은 **프로토콜 버전**(http/1.1), **http 응답 코드**(숫자), **응답코드(상태) 메세지**(ex)OK) 구성된다.
      - `응답라인, 응답헤드 정보, 바디부로 구분`된다.
      
      ![image](https://user-images.githubusercontent.com/87356533/140913192-3a0da935-5ec5-40bf-89ab-e5604c923a2a.png)
