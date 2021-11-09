@@ -13,18 +13,23 @@
 
 ## JSP 개발 환경 설정 (jdk, eclipse EE, Tomcat이 설치 완료되어 있어야 한다)
 1. 워크스페이스 설정 (본인이 편한 경로로 지정한다)
+
 ![image](https://user-images.githubusercontent.com/87356533/140906681-a3448d7a-111d-4fa0-9ce4-dfe7bbfcbf21.png)
 
 2. 이클립스의 window-preferences에서 css, html, jsp file의 encoding 설정을 utf-8로 변경한다.
+
 ![image](https://user-images.githubusercontent.com/87356533/140905884-1df9b7ba-883e-4164-bcf9-a33d23cc8948.png)
 
 3. window-preferences에서 server-Runtime Environment에 들어가서 add를 클릭하고, Apache Tomcat v10.0 선택 후 next
+
 ![image](https://user-images.githubusercontent.com/87356533/140907397-003e6f7e-9477-46d0-a1ea-e34fd188365a.png)
 
 4. 다음 창에서 톰캣을 설치한 경로로 지정해 주고 finish
+
 ![image](https://user-images.githubusercontent.com/87356533/140907793-e4a4fe03-1764-478d-9d33-efb9ce78f2a5.png)
 
 5. Web-Dynamic Web Project에서 프로젝트를 생성한다.
+
 ![image](https://user-images.githubusercontent.com/87356533/140908388-25732ddb-a4c3-44d1-9857-ca14655ac81c.png)
 
 ## 프로젝트 생성 후 폴더 살펴보기
