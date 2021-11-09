@@ -13,6 +13,7 @@
 
 ## JSP 개발 환경 설정 (jdk, eclipse EE, Tomcat이 설치 완료되어 있어야 한다)
 1. 워크스페이스 설정 (본인이 편한 경로로 지정한다)
+
 ![image](https://user-images.githubusercontent.com/87356533/140906681-a3448d7a-111d-4fa0-9ce4-dfe7bbfcbf21.png)
 
 2. 이클립스의 window-preferences에서 css, html, jsp file의 encoding 설정을 utf-8로 변경한다.
