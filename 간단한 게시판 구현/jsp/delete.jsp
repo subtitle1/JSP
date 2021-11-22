@@ -11,7 +11,7 @@
 	Board board = new Board();
 	board.setBoardNo(boardNo);
 	
-	boardDao.deleteBoard(board);
+	boardDao.deleteBoard(boardNo);
 	
 	response.sendRedirect("list.jsp?no="+boardNo+"&cpno="+pageNo);
 %>
