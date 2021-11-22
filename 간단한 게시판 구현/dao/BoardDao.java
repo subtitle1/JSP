@@ -30,13 +30,13 @@ public class BoardDao {
 		
 	}
 	
-	public void deleteBoard(Board board) throws SQLException {
+	public void deleteBoard(int boardNo) throws SQLException {
 		String sql = "delete from tb_web_board "
 				   + "where board_no = ? ";
 		
 		Connection connection = getConnection();
 		PreparedStatement pstmt = connection.prepareStatement(sql);
-		pstmt.setInt(1, board.getBoardNo());
+		pstmt.setInt(1, boardNo());
 		
 		pstmt.executeUpdate();
 		
