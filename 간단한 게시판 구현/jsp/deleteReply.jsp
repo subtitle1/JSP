@@ -11,7 +11,7 @@
 	ReplyDao replyDao = new ReplyDao();
 	
 	boardReply = replyDao.getReply(replyNo);
-	replyDao.deleteReply(boardReply);
+	replyDao.deleteReply(replyNo);
 	
 	response.sendRedirect("detail.jsp?no="+boardNo+"&cpno="+pageNo);
 %>
