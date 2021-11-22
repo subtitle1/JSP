@@ -62,14 +62,14 @@ public class ReplyDao {
 		return reply;
 	}
 	
-	public void deleteReply(BoardReply reply) throws SQLException {
+	public void deleteReply(int replyNo) throws SQLException {
 		String sql = "delete from tb_web_board_reply "
 				   + "where reply_no = ? ";
 		
 		Connection connection = getConnection();
 	    PreparedStatement pstmt = connection.prepareStatement(sql);
 	      
-	    pstmt.setInt(1, reply.getReplyNo());
+	    pstmt.setInt(1, replyNo);
 	    pstmt.executeUpdate();
 	    
 	    pstmt.close();
