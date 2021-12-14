@@ -34,6 +34,7 @@ public class MultipartRequest {
 	 * @param saveDirectory 업로드된 파일을 저장할 디렉토리 경로
 	 * @throws IOException 업로드된 파일 처리 중 오류가 발생했을 때
 	 */
+	// 요청객체에서 값을 뽑아야 해서 request 객체가 필요하고, 업로드된 파일을 저장할 디렉토리가 필요하다.
 	public MultipartRequest(HttpServletRequest request, String saveDirectory) throws IOException {
 		this.saveDirectory = saveDirectory;
 		
